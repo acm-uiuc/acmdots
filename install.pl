@@ -88,9 +88,6 @@ my %links = (
 	caffeinate => 'bin/caffeinate',
 	lock       => 'bin/lock',
 
-	'git-info'            => 'bin/git-info',
-	'git-untrack-ignored' => 'bin/git-untracked-ignored',
-
 	gdbinit => '.gdbinit',
 );
 
