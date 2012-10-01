@@ -48,6 +48,8 @@ my %links = (
 	_vimrc   => '_vimrc',
 	gvimrc   => '.gvimrc',
 
+	man      => '.man',
+
 	emacsrc => '.emacs',
 	emacs => '.emacsdir',
 
@@ -85,12 +87,49 @@ my %links = (
 
 	tigrc     => '.tigrc',
 
-	caffeinate => 'bin/caffeinate',
+	'acm/caffeinate' => 'bin/caffeinate',
 	lock       => 'bin/lock',
 
 	gdbinit => '.gdbinit',
 
-	'z.sh' => 'bin/z.sh',
+	# z (https://github.com/rupa/z)
+	'z/z.sh' => 'bin/z.sh',
+	'z/z.1' => '.man/z.1',
+
+	# git extras (https://github.com/visionmedia/git-extras)
+	'git-extras/bin/git-alias' => 'bin/git-alias',
+	'git-extras/bin/git-back' => 'bin/git-back',
+	'git-extras/bin/git-bug' => 'bin/git-bug',
+	'git-extras/bin/git-changelog' => 'bin/git-changelog',
+	'git-extras/bin/git-commits-since' => 'bin/git-commits-since',
+	'git-extras/bin/git-contrib' => 'bin/git-contrib',
+	'git-extras/bin/git-count' => 'bin/git-count',
+	'git-extras/bin/git-create-branch' => 'bin/git-create-branch',
+	'git-extras/bin/git-delete-branch' => 'bin/git-delete-branch',
+	'git-extras/bin/git-delete-merged-branches' => 'bin/git-delete-merged-branches',
+	'git-extras/bin/git-delete-submodule' => 'bin/git-delete-submodule',
+	'git-extras/bin/git-delete-tag' => 'bin/git-delete-tag',
+	'git-extras/bin/git-effort' => 'bin/git-effort',
+	'git-extras/bin/git-extras' => 'bin/git-extras',
+	'git-extras/bin/git-feature' => 'bin/git-feature',
+	'git-extras/bin/git-fresh-branch' => 'bin/git-fresh-branch',
+	'git-extras/bin/git-gh-pages' => 'bin/git-gh-pages',
+	'git-extras/bin/git-graft' => 'bin/git-graft',
+	'git-extras/bin/git-ignore' => 'bin/git-ignore',
+	'git-extras/bin/git-info' => 'bin/git-info',
+	'git-extras/bin/git-local-commits' => 'bin/git-local-commits',
+	'git-extras/bin/git-obliterate' => 'bin/git-obliterate',
+	'git-extras/bin/git-pull-request' => 'bin/git-pull-request',
+	'git-extras/bin/git-refactor' => 'bin/git-refactor',
+	'git-extras/bin/git-release' => 'bin/git-release',
+	'git-extras/bin/git-rename-tag' => 'bin/git-rename-tag',
+	'git-extras/bin/git-repl' => 'bin/git-repl',
+	'git-extras/bin/git-setup' => 'bin/git-setup',
+	'git-extras/bin/git-show-tree' => 'bin/git-show-tree',
+	'git-extras/bin/git-squash' => 'bin/git-squash',
+	'git-extras/bin/git-summary' => 'bin/git-summary',
+	'git-extras/bin/git-touch' => 'bin/git-touch',
+	'git-extras/bin/git-undo' => 'bin/git-undo',
 );
 
 my $contained = (substr $scriptdir, 0, length($home)) eq $home;

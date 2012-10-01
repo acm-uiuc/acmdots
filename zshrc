@@ -48,4 +48,5 @@ if [ -d "${HOME}/.zsh" ] ; then
 	done
 fi
 
+export MANPATH="${HOME}/.man":$MANPATH
 . "${HOME}/bin/z.sh"
