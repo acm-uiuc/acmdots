@@ -47,3 +47,5 @@ if [ -d "${HOME}/.zsh" ] ; then
 		. "${HOME}/.zsh/${file}"
 	done
 fi
+
+. "${HOME}/bin/z.sh"

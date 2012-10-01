@@ -89,6 +89,8 @@ my %links = (
 	lock       => 'bin/lock',
 
 	gdbinit => '.gdbinit',
+
+	'z.sh' => 'bin/z.sh',
 );
 
 my $contained = (substr $scriptdir, 0, length($home)) eq $home;
