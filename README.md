@@ -1,2 +1,3 @@
 # Installation
-Install by executing `install.pl` from within the acmdots directory.
+Install by executing `install.py`.
+See `install.py --help` for more information.
