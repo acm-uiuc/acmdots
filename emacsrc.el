@@ -63,7 +63,7 @@
 
 ;; Turn on line numbering (hopefully with linum-mode)
 (if (boundp 'global-linum-mode) 
-	'(global-linum-mode 1)
+	(global-linum-mode 1)
 	(desire 'linum "linum.el"
 			'(global-linum-mode 1)
 			'(global-line-number-mode 1)))

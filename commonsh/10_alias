@@ -19,8 +19,9 @@ for dircolors in gdircolors dircolors ; do
 	fi
 done
 
-# gimmie an editor, make it a nice vi clone
-for EDITOR in vimx vim elvis vile nvi vi ; do
+# gimmie an editor, make it emacs or a nice vi clone
+# but you can't find a vi clone keep trying!!
+for EDITOR in vimx vim elvis vile nvi vi emacs nano pico; do
 	command -v $EDITOR >/dev/null 2>&1 && break
 done
 export EDITOR

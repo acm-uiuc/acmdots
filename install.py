@@ -17,7 +17,7 @@ links = {
 	'_vimrc':   '_vimrc',
 	'gvimrc':   '.gvimrc',
 
-	'emacsrc':  '.emacs',
+	'emacsrc.el':  '.emacs',
 	'emacs':    '.emacsdir',
 
 	'commonsh': '.commonsh',
